@@ -13,5 +13,4 @@ data['human'] = data['human'].astype(int)
 data['robot'] = data['robot'].astype(int)
 data = data.drop(columns='whoAmI')
 
-#print(pd.get_dummies(data['whoAmI']))
-print(data.head(10))
+print(data.head())
